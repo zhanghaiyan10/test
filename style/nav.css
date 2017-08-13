@@ -1,0 +1,47 @@
+@charset "utf-8";
+#navigator{
+    width:800px;
+    height:32px;
+    border:1px solid #4564a9;
+    margin:10px auto;
+}
+#item{
+    margin:5px;
+}
+#item>li {
+    float: left;
+    margin-right: 10px;
+    padding:0  5px;
+    background-color: #eee;
+    position: relative;
+    font-size:12px;
+    font-weight:600;
+    z-index:50;//z-index有个坑，因为container高度固定，里面li浮动，ul相对定位后要提高index，才显示出来
+}
+
+#item>li>a:hover{
+    background-color:transparent;
+    color:#fff;
+    cursor:pointer;
+}
+.item_detail {
+    position: absolute;
+    left:0;
+    display:none;
+
+}
+
+.item_detail>li{
+    padding-left:5px;
+    width:50px;
+    background-color:#eee;
+    border-bottom:1px solid #ddd;
+    font-size:12px;
+    font-weight:600;
+}
+
+.item_detail li a:hover{
+    background-color:#afd302;
+    color:#fff;
+    cursor:pointer;
+}
