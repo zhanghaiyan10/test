@@ -22,7 +22,6 @@
 #item>li>a:hover{
     background-color:transparent;
     color:#fff;
-    cursor:pointer;
 }
 .item_detail {
     position: absolute;
@@ -43,5 +42,4 @@
 .item_detail li a:hover{
     background-color:#afd302;
     color:#fff;
-    cursor:pointer;
 }
