@@ -87,7 +87,7 @@ function scrollBanner(index){
 //slideImg.js
 $(function(){
     var pageLen=$("#product_list_content").find("dl").length;
-    var countSum=Math.ceil(pageLen/4);
+    var countSum=Math.ceil(pageLen/5);
     var countWidth=$("#product_list").width();
     var pageCount=1;
     $(".module_left_right").find("img:last").click(function(){
@@ -111,6 +111,7 @@ $(function(){
         }
     })
 })
+
 //imgHover.js
 $(function(){
     $("#product_list_content dl dt").each(function(){
