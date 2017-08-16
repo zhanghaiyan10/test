@@ -5,6 +5,7 @@ body{
     word-break:break-all;
     font:12px/1.6em arail,Helvetica,serif_sans;
     color:#333;
+    padding:0 60px;
 }
 ul li{
     list-style:none;

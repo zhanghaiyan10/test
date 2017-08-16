@@ -2,7 +2,7 @@
 @import url("header.css");
 @import url("nav.css");
 #main{
-    width:802px;
+    width:100%;
     margin:0 auto;
     border:1px solid #ddd;
     overflow:hidden;
@@ -10,10 +10,11 @@
 .title{
     line-height:16px;
     padding:5px;
+    font-size:14px;
 }
 .left_container{
-    width:398px;
-    padding:10px;
+    width:30%;
+    padding:20px;
     float:left;
 }
 .jqzoom{
@@ -77,6 +78,7 @@ div.jqZoomPup{
     float:left;
     margin-right:10px;
     height:85px;
+    cursor:pointer;
 }
 .img_list .selected{
     border:2px solid #ddd;
@@ -105,7 +107,7 @@ div.jqZoomPup{
     display:block;
 }
 .right_container{
-    width:360px;
+    width:60%;
     float:right;
     padding:20px 20px 0 0;
 }
@@ -123,6 +125,7 @@ div.jqZoomPup{
     height:34px;
     margin-right:10px;
     text-indent:-9999px;
+    cursor:pointer;
 }
 .color_list li:first-child{
     background-image:url("../images/pro_img/blue.jpg");
@@ -147,6 +150,7 @@ div.jqZoomPup{
     text-align:center;
     vertical-align: middle;
     font-weight:600;
+    cursor:pointer;
 }
 .num{
     margin-bottom:10px;
@@ -166,6 +170,7 @@ div.jqZoomPup{
     background:url("../images/star-matrix.gif") no-repeat 0 0;
     overflow:hidden;
     margin:2px 0 40px 0;
+    cursor:pointer;
 }
 .score_list li{
     float:left;
@@ -205,4 +210,8 @@ div.jqZoomPup{
 }
 .hoverScore_5{
     background:url("../images/star-matrix.gif") no-repeat 0 -160PX;
+}
+
+.finish{
+    cursor:pointer;
 }
